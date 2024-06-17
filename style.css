@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Seshat';
-    src: url("./fonts/Seshat.otf");
+    src: url("./assets/fonts/Seshat.otf");
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url("./fonts/Poppins/Poppins-Medium.ttf");
+    src: url("./assets/fonts/Poppins/Poppins-Medium.ttf");
 }
 
 :root {
@@ -521,13 +521,13 @@ main {
 #arrow-left {
     left: var(--translate);
     rotate: -90deg;
-    background-image: url("./images/arrow.png");
+    background-image: url("./assets/images/icons/arrow.png");
 }
 
 #arrow-right {
     right: var(--translate);
     rotate: 90deg;
-    background-image: url("./images/arrow.png");
+    background-image: url("./assets/images/icons/arrow.png");
 }
 
 
@@ -561,7 +561,7 @@ form {
 }
 
 input[required] + label:after, select[required] + label:after, textarea[required] + label:after {
-    content: url("./images/asterix.png");
+    content: url("./assets/images/icons/asterix.png");
     position: absolute;
     transform: translate(5px, -5px);
 }
